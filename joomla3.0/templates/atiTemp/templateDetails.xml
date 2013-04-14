@@ -11,6 +11,7 @@
         <description>ATI</description>
         <files>
                 <filename>index.php</filename>
+                <filename>about.php</filename>
                 <filename>templateDetails.xml</filename>
                 <folder>images</folder>
                 <folder>css</folder>
