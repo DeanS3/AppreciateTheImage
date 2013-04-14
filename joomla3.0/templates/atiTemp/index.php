@@ -1,37 +1,17 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <link rel="stylesheet" href="/support/css/style.css" type="text/css" />
-    <script src="/support/js/main.js" type="text/javascript"></script>
+<?php defined( '_JEXEC' ) or die( 'Restricted access' );?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" 
+   xml:lang="<?php echo $this->language; ?>" lang="<?php echo $this->language; ?>" >
+   <head>
+<jdoc:include type="head" />
+<link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/system/css/system.css" type="text/css" />
+<link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/system/css/general.css" type="text/css" />
+<link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/css/style.css" type="text/css" />
 </head>
 <body>
-    <!-- main container -->
-    <div class='main_container'>
-        <!-- header -->
-        <div class='header'>Header</div>
-    
-        <!-- mid container - includes main content area and right sidebar -->
-        <div class='mid_container'>
-    
-            <!-- main content area -->
-            <div class='main_content_area'>
-                Main Content Area
-            </div>
-    
-            <!-- right sidebar -->
-            <div class='right_sidebar'>
-                Right SideBar
-            </div>
-            
-            <div style='clear:both;'></div>
-    
-        </div>
-    
-        <!-- footer -->
-        <div class='footer'>
-            Footer
-        </div>
-        
-    </div>
+<jdoc:include type="modules" name="top" /> 
+<jdoc:include type="component" />
+<jdoc:include type="modules" name="bottom" />
 </body>
 </html>
