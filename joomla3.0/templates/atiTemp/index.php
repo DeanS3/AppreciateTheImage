@@ -13,5 +13,6 @@
 <jdoc:include type="modules" name="top" /> 
 <jdoc:include type="component" />
 <jdoc:include type="modules" name="bottom" />
+<p>this works!</p>
 </body>
 </html>
