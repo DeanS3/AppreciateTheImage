@@ -13,6 +13,10 @@
 <jdoc:include type="modules" name="top" /> 
 <jdoc:include type="component" />
 <jdoc:include type="modules" name="bottom" />
+<nav>
+	<a href="#">Home</a>
+	<a href="http://localhost/ati/appreciatetheimage/joomla3.0/index.php/our-services">services</a>
+</nav>
 <p>this works!</p>
 </body>
 </html>
