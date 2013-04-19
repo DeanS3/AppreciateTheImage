@@ -1,3 +1,4 @@
-h1{background-color: blue; width: 75%;}
+head{position: 0px 0px; background: orange;}
+h1{background-color: blue; width: 75%; position: 35px 200px;}
 body{background-color: #654186;}
-nav{background-color: white; float: right; width: 75%; height: 100px; position: 25px 150px;}
+a{background-color: white; float: laft; width: 75%; height: 100px; position: 25px 150px;}
