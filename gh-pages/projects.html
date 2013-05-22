@@ -1,103 +1,105 @@
 <!DOCTYPE html>
 <html>
 <head>
-
-<meta http-equiv="X-UA-Compatible" content="chrome=1">
- <!-- Bootstrap -->
-<link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
-<link rel="stylesheet" type="text/css" href="assets/css/site.css">
-<title>Appreciate The Image | PROJECTS SHOWCASE</title>
-
+	<meta http-equiv="X-UA-Compatible" content="chrome=1">
+	 <!-- Bootstrap -->
+	<link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+	<link rel="stylesheet" type="text/css" href="assets/css/site.css">
+	<title>Appreciate The Image | PROJECTS SHOWCASE</title>
 </head>
-
 <body>
 <div id="flex">
 	<head>
-		<div id="voice">
+		 <article id="voice"><!-- GOOGLE VOICE WIDGET -->
 			<object type="application/x-shockwave-flash" data="https://clients4.google.com/voice/embed/webCallButton" width="230" height="85"><param name="movie" value="https://clients4.google.com/voice/embed/webCallButton" /><param name="wmode" value="transparent" /><param name="FlashVars" value="id=ee3219586f75f6c7edd54ea372eed8175092335c&style=0" /></object>
-		</div>
+		</article> <!-- VOICE -->
 		<h1 class="repLogo">
 		  <a href="index.html">
 		    <img src="assets/images/ATI_logo.png" alt="Logo" title="Logo" />
 		  </a>
 		</h1>
-		
 	</head>
 	<nav>
 		<a href="index.html">Home</a>
 		<a href="services.html">Services</a>
 		<a href="projects.html">Projects</a>
 		<a href="form.html">Contact</a>
-
 	</nav>
 	<h1 id="pageShow">Projects Showcase</h1>
-	
-	<div id="showcase">
-		<video width="300" height="220" controls>
-			<source src="assets/video/macy.mp4" type="video/mp4">
-			<source src="assets/video/macy(1).ogg" type="video/ogg">
-			<source src="assets/video/macy.webm" type="video/webm">
-			Your browser does not support html5 video tags.
-		</video>
-		<div id="descript">
-			<h1 id="title">CFI Macy's</h1>
-			<p>Chicago's Fashion Incubator at downtown Macy's had a showcase of their designers in the storefront.</p>
-		</div>
-	</div>
-	<div id="showcase">
-		<video width="300" height="220" controls>
-			<source src="assets/video/lethal(1).mp4" type="video/mp4">
-			<source src="assets/video/lethal(1).ogg" type="video/ogg">
-			<source src="assets/video/lethal.webm" type="video/webm">
-			Your browser does not support html5 video tags.
-		</video>
-		<div id="descript">
-			<h1 id="title">Interview</h1>
-			<p>Video interview with local Chicago Rapper Lethal Tha Curser.</p>
-		</div>
-	</div>
-	<div id="showcase">
-		<video width="300" height="220" controls>
-			<source src="assets/video/mom.mp4" type="video/mp4">
-			<source src="assets/video/mom(1).ogg" type="video/ogg">
-			<source src="assets/video/mom.webm" type="video/webm">
-			Your browser does not support html5 video tags.
-		</video>
-		<div id="descript">
-			<h1 id="title">Bday Party</h1>
-			<p>50th birthday celebration!</p>
-		</div>
-	</div>
-	<div id="showcase">
-		<video width="300" height="220" controls>
-			<source src="assets/video/mel.mp4" type="video/mp4">
-			<source src="assets/video/mel(1).ogg" type="video/ogg">
-			<source src="assets/video/mel.webm" type="video/webm">
-			Your browser does not support html5 video tags.
-		</video>
-		<div id="descript">
-			<h1 id="title">Introduction</h1>
-			<p>Spoken word artist Melanie "Woman Of God" Brown's introductory youtube video.</p>
-		</div>
-	</div>
-			
-	<hr style="width:100%" style="color:purple">
+	<section class="lineB">
+		<div class='row-fluid'><!-- CONTAINS CFI AND INTERVIEW VIDEOS -->
+			<section id="showcase" class='span4'><!-- CFI VIDEO -->
+				<article id="video">
+					<video width="300" height="220" controls>
+						<source src="assets/video/macy.mp4" type="video/mp4">
+						<source src="assets/video/macy(1).ogg" type="video/ogg">
+						<source src="assets/video/macy.webm" type="video/webm">
+						Your browser does not support html5 video tags.
+					</video>
+				</article><!-- VIDEO -->
+				<article id="descript">
+					<h2 id="title">CFI Macy's</h2>
+					<p>Chicago's Fashion Incubator at downtown Macy's had a showcase of their designers in the storefront.</p>
+				</article><!-- DESCRIPT -->
+			</section><!-- SHOWCASE -->
+			<section id="showcaseR" class="span4 offset5"><!-- INTERVIEW VIDEO -->
+				<article id="videoR">
+					<video  width="300" height="220" controls>
+						<source src="assets/video/lethal(1).mp4" type="video/mp4">
+						<source src="assets/video/lethal(1).ogg" type="video/ogg">
+						<source src="assets/video/lethal.webm" type="video/webm">
+						Your browser does not support html5 video tags.
+					</video>
+				</article><!-- VIDEOR -->
+				<article id="descriptR">
+					<h2 id="title">Interview</h2>
+					<p>Video interview with local Chicago Rapper Lethal Tha Curser.</p>
+				</article><!-- DESCRIPTR -->
+			</section><!-- SHOWCASER -->
+		</div><!-- END OF CFI AND INTERVIEW VIDEO CODE -->
+		<div class='row-fluid'><!-- CONTINS BDAY AND INTRODUCTION VIDEO -->
+			<section id="showcaseBday" class='span4'><!-- BDAY VIDEO -->
+				<article id="video">
+					<video width="300" height="220" controls>
+						<source src="assets/video/mom.mp4" type="video/mp4">
+						<source src="assets/video/mom(1).ogg" type="video/ogg">
+						<source src="assets/video/mom.webm" type="video/webm">
+						Your browser does not support html5 video tags.
+					</video>
+				</article><!-- VIDEO -->
+				<article id="descriptBday">
+					<h2 id="title">Bday Party</h2>
+					<p>50th birthday celebration!</p>
+				</article>	<!-- DESCRIPTBDAY -->
+			</section><!-- SHOWCASEBDAY -->
+			<section id="showcaseR" class='span4 offset5'><!-- INTRODUCTION VIDEO -->
+				<article id="videoR">
+					<video width="300" height="220" controls>
+						<source src="assets/video/mel.mp4" type="video/mp4">
+						<source src="assets/video/mel(1).ogg" type="video/ogg">
+						<source src="assets/video/mel.webm" type="video/webm">
+						Your browser does not support html5 video tags.
+					</video>
+				</article><!-- VIDEOR -->
+				<article id="descriptR">
+					<h2 id="title">Introduction</h2>
+					<p>Spoken word artist Melanie "Woman Of God" Brown's introductory youtube video.</p>
+				</article><!-- DESCRIPTR -->
+			</section><!-- SHOWCASER -->
+		</div>	<!-- END OF BDAY AND INTRODUCTION VIDEO -->
+	</section><!-- LINEB -->
 	<footer>
 		<nav>
 			<a href="faqs.html">FAQ's</a>
 			<a href="#">Contracts</a>
 			<a href="advertise.html">Advertise</a>
 			<a href="partners.html">Partners</a>
-
 		</nav>
-
 	</footer>
 </div>
-
 <!-- bootstrap and jquery -->
 <script src="http://code.jquery.com/jquery.js"></script>
 <script src="assets/booststrap/js/bootstrap.min.js"></script>
 <script src="assets/js/site.js"></script>
 </body>
-
 </html> 
