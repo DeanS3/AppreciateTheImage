@@ -40,12 +40,13 @@ body{background-color: black;
 /*----------HEADER----------*/
 #voice{float: right;}
 h1#page{color: #e4a804;
-	margin-left: 700px;
+	margin-left: 47%;
 	margin-top: 100px;
 	width: 250px;
 }
 h1#pageShow{color: #e4a804;
-	margin-left: 600px;
+	/*margin-left: 600px;*/
+	margin-left:42%;
 	margin-top: 100px;
 	width: 260px;
 }
@@ -118,19 +119,19 @@ h3#conInfo1{clear: left;
 #showcase{width:50%;
 		margin-top: 50px;
 		margin-bottom: 50px;
-		margin-left: 50px;
+		margin-left: 3%;
 		float:left;
 
 }
 #showcaseBday{width:50%;
 		margin-top: 75px;
-		margin-left: 50px;
+		margin-left: 3%;
 		margin-bottom: 50px;
 		float:left;
 }
 #showcaseR{width:50%;
 		margin-top: -275px;
-		margin-right: 250px;
+		margin-right: 15%;
 		margin-bottom: 50px;
 		float: right;
 }
@@ -138,7 +139,7 @@ h3#conInfo1{clear: left;
 		height: 190px;
 		margin-bottom: -200px;
 		float: left;
-		margin-left: 10px;
+		margin-left: 1%;
 		text-indent: 15px;
 		background: #050301; /* Old browsers */
 		/* IE9 SVG, needs conditional override of 'filter' to 'none' */
@@ -155,8 +156,7 @@ h3#conInfo1{clear: left;
 #descriptBday{width:25%;
 		height: 190px;
 		float: left;
-		margin-left: 315px;
-		margin-top: -225px;
+		margin-left: 1%;
 		text-indent: 15px;
 		background: #050301; /* Old browsers */
 		/* IE9 SVG, needs conditional override of 'filter' to 'none' */
@@ -172,7 +172,7 @@ h3#conInfo1{clear: left;
 }
 #descriptR{width:25%;
 		height: 190px;
-		margin-left: 750px;
+		margin-left: 100%;
 		margin-top: -50px;
 		clear:right;
 		text-indent: 15px;
@@ -189,8 +189,8 @@ h3#conInfo1{clear: left;
 		;
 }
 #video{border: 2px;
-	width: 41%;
-	height: 99%;
+	width: 300px;
+	height: 220px;
  	border-color: #712a2a;
  	border-style: solid;
  	border-radius: 5px;
